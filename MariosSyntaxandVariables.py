@@ -15,10 +15,10 @@ mult=a*b
 quot=a/b
 
 #print
-print(sum)
-print(sub)
-print(mult)
-print(quo)
+print(f"Summation:{sum}")
+print(f"Difference:{sub}")
+print(f"Multiplication:{mult}")
+print(f"Division:{quo}")
 
 ---
 #3
