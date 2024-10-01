@@ -4,23 +4,23 @@
 list=[i for i in range(1,11)]
 
 #Square the list unsing list comprehension
-square_list=[i**2 for i in range(1,11)]
+square_list=[i**2 for i in list]
 print(square_list)
 
 ---
 #16
 #Create a dictionary
-dict={'Marios':[11,23,45,4],'Anna':[3,53,14,66],'Jeremy':[23,43,45,65],'Suzie':[45,54,34,23]}
+students={'Marios':[11,23,45,4],'Anna':[3,53,14,66],'Jeremy':[23,43,45,65],'Suzie':[45,54,34,23]}
 
 #Function that gives the average grade of student
-def Average(dict):
-    for name, grades in dict.items():
+def Average(student_grades):
+    for name, grades in student_grades.items():
         average=sum(grades)/len(grades)
         print(f"{name}: Average Grade = {average:.2f}")
     else:
         print(" That is all the average grades we have for now.")
 
-Average(dict)
+Average(students)
 
 ---
 #17
@@ -36,10 +36,6 @@ def calculate(a: float,b: float,c: str)->Union[float, int, str]:
     Returns:
     A number (float,int) or an error message (str)
     """
-    if type(a)=str:
-        print("First argument needs to be a number.")
-    if type(b)=str:
-        print("Second argument needs to be a number.")
     if c=='+':
         return a+b
     elif c=='-':
@@ -52,7 +48,8 @@ def calculate(a: float,b: float,c: str)->Union[float, int, str]:
             return a/b
     elif c=='*':
         return a*b
-    else print('Operator is invalid, try again with (+,-,*,./).')
+    else:
+        print('Operator is invalid, try again with (+,-,*,./).')
 
 #Ask user for input
 a = float(input("Enter the first number: ")) #We need to make sure the first argument is a number
