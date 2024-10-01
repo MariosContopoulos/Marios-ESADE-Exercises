@@ -1,7 +1,7 @@
 #12
 #Define a function that prints Hello, {name}!
 
-def=greet(name):
+def greet(name):
     print(f"Hello, {name}!")
 
 greet("Marios") #Calling the function by my own name
@@ -13,8 +13,8 @@ greet("Marios") #Calling the function by my own name
 def square(number):
     return number**2 #Return the square of the number
 
-square(5) #Returns 25
-square(-3) #Returns 9
+print(square(5)) #Returns 25
+print(square(-3)) #Returns 9
 
 ---
 #14
@@ -23,5 +23,5 @@ square(-3) #Returns 9
 def multiply(a,b=1):
     return a*b
 
-multiply(5) #Returns 5, so it uses the default value for the second argument
-multiply(5,5) #Returns 25, so second argument overridesthe default value
+print(multiply(5)) #Returns 5, so it uses the default value for the second argument
+print(multiply(5,5)) #Returns 25, so second argument overridesthe default value
