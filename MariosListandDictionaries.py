@@ -6,13 +6,14 @@ universities=['UCL','IE','ESADE','LSE','IMPERIAL'] #list
 print(universities)
 
 #Print first and last entries
-universities[0]
-universities[-1]
+print(universities[0])
+print(universities[-1])
 
 ---
 #5
 #Create dictionaries
-random=dict('name':"Marios",'age':5,'grade':"A***")
+random={'name':"Marios",'age':5,'grade':"A***"}
 
 #Print all key-value pairs
-print(random)
+for key, value in random.items():
+  print(f"{key}:{value}")
