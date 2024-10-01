@@ -3,7 +3,7 @@
 
 list=[i for i in range(1,11)]
 
-#Square the list unsing list comprehension
+#Square the list using list comprehension
 square_list=[i**2 for i in list]
 print(square_list)
 
