@@ -1,10 +1,10 @@
 #6
 #Define a tulpe
-coordinates=tuple(123,55)
+coordinates=(123,55)
 
 #Print the values
-print("The x-coordinate is "coordinates[0])
-print("The y-coordinate is "coordinates[1])
+print("The x-coordinate is ",coordinates[0])
+print("The y-coordinate is ",coordinates[1])
 
 ---
 #7
@@ -13,7 +13,7 @@ colors=set(["red","green","blue"])
 
 #Add a color
 colors.add("yellow")
-colors.add("yellow") #Only adds it once
+colors.add("yellow") #Only adds it once, duplicates are ignored
 print(colors)
 
 #Remove a color
