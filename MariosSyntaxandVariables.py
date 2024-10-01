@@ -18,7 +18,7 @@ quot=a/b
 print(f"Summation:{sum}")
 print(f"Difference:{sub}")
 print(f"Multiplication:{mult}")
-print(f"Division:{quo}")
+print(f"Division:{quot}")
 
 ---
 #3
