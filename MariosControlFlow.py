@@ -5,7 +5,7 @@ number=int(input("Give a number:")) #The function "input" returns a string, so w
 if number>0:
     print("This is positive.")
 
-elif number=0:
+elif number==0:
     print("This is zero.")
 
 else:
@@ -24,7 +24,6 @@ else:
 
 ---
 #10
-#Create a list
 Marios=1
 
 while Marios<=5:
