@@ -7,14 +7,34 @@ def fizzbuzz(n):
     n if otherwise
     """
     if (n%3==0 and n%5==0):
-        return "FizzBuzz"
+        return "FizzBuzz" #If n is multiple of 3 and 5
     elif n%5==0:
-        return "Buzz"
+        return "Buzz" #If n is multiple of 5
     elif n%3==0:
-        return "Fizz"
+        return "Fizz" #If n is multiple of 3
     else:
         return n
 
 for i in range(1,20):
     check=fizzbuzz(i)
-    print(f"The number {i} is {check}")
+    print(check)
+
+#1
+#2
+#Fizz
+#4
+#Buzz
+#Fizz
+#7
+#8
+#Fizz
+#Buzz
+#11
+#Fizz
+#13
+#14
+#FizzBuzz
+#16
+#17
+#Fizz
+#19
