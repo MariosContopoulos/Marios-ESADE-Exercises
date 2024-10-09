@@ -21,8 +21,8 @@ They are seperated by group based on the slides provided in the lecture.
     Exercise 8: Conditional Statements
     Exercise 9: For Loop
     Exercise 10: While Loop
-    Exercise 11: Match Statement (Python 3.10+)
-
+    Exercise 11: Match Statement 
+    
 # Function
     Exercise 12: Define a Function
     Exercise 13: Function with Return Value
