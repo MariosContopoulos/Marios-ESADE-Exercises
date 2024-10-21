@@ -1,9 +1,9 @@
-# Python Session 3
+# Python Session 2
 
-# Session 3
+# Session 2
 
 # Python - Object Oriented Programming
-    Exercise 1: Course Class
-    Exercise 2: Student Class
-    Exercise 3: Registration Class
-    Exercise 4: GPA
+    Exercise 1: Celsius_Fahrenheit
+    Exercise 2: Fizz Buzz
+    Exercise 3: Mix_List
+    Exercise 4: Todo_list
