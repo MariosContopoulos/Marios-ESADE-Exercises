@@ -42,3 +42,14 @@ They are seperated by group based on the slides provided in the lecture.
     Exercise 3: Simple To-Do List
     Exercise 4: Temperature Converter
 
+# Python Session 3
+
+# Session 3
+
+# Python - Object Oriented Programming
+    Exercise 1: Course Class
+    Exercise 2: Student Class
+    Exercise 3: Registration Class
+    Exercise 4: GPA
+
+
