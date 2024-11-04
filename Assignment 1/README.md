@@ -32,13 +32,3 @@ They are seperated by group based on the slides provided in the lecture.
     Exercise 15: List Comprehension
     Exercise 16: Nested Data Structures
     Exercise 17: Simple Calculator
-
-
-# Session 2
-
-# Python - Syntax and variables
-    Exercise 1: FizzBuzz
-    Exercise 2: Basic Data Filtering
-    Exercise 3: Simple To-Do List
-    Exercise 4: Temperature Converter
-
