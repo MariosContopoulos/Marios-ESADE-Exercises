@@ -15,7 +15,7 @@ def fizzbuzz(n):
     else:
         return n
 
-for i in range(1,20):
+for i in range(1,21):
     check=fizzbuzz(i)
     print(check)
 
