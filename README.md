@@ -43,7 +43,7 @@ They are seperated by group based on the slides provided in the lecture.
     Exercise 4: Temperature Converter
 
 
-# Assignment 4: Course Registration System
+# Assignment 3: Course Registration System
 
 ### Object-Oriented Programming Project
 
