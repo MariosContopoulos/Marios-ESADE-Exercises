@@ -255,15 +255,12 @@ This section introduces common data wrangling tasks using the Netflix dataset.
    Create a new column `FamilySize`, which is the sum of the `SibSp` (siblings/spouses) and `Parch` (parents/children) columns.
 
 ---
-
-# Pandas II: Advanced Data Manipulation
+# Exercise 7
 
 ## Overview
 
 In this exercise, we will practice advanced data manipulation techniques using the Iris dataset. The dataset can be downloaded from:  
 [https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data](https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data)
-
-We will explore both **Series** and **DataFrame** manipulations to deepen our understanding of the Pandas library.
 
 ---
 
@@ -296,6 +293,3 @@ We will explore both **Series** and **DataFrame** manipulations to deepen our un
     - Ensure that the index is included in the saved file.
 
 ---
-
-
-
