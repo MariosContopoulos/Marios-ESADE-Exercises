@@ -1,4 +1,4 @@
-# README
+# Exercise 6
 
 ## **Pandas Exercises: A Hands-On Approach to Data Manipulation**
 
