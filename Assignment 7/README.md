@@ -1,11 +1,9 @@
-# Pandas II: Advanced Data Manipulation
+# Exercise 7
 
 ## Overview
 
 In this exercise, we will practice advanced data manipulation techniques using the Iris dataset. The dataset can be downloaded from:  
 [https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data](https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data)
-
-We will explore both **Series** and **DataFrame** manipulations to deepen our understanding of the Pandas library.
 
 ---
 
