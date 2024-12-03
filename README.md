@@ -176,24 +176,5 @@ This project is designed to handle annotation files in a structured way. The mai
 - **Second Half 2024 Filter**: Filter annotations that fall between July and December 2024 and sort them in chronological order.
 - **Debugging Information**: Print out the data for debugging and verification of the month-wise annotation categorization.
 
-## Setup
-
-### Prerequisites
-
-Make sure you have the following installed on your system:
-
-- Python 3.x
-- `glob` (usually comes with Python)
-- `re` (regular expression library, included in Python)
-- `os` (used for file system manipulation)
-- `datetime` (to handle date and time)
-- `json` (for JSON handling)
-- `pickle` (for Pickle serialization)
-
-You can install any missing libraries using pip, if necessary.
-
-### Directory Structure
-
-Ensure that you have the following directory structure for your annotations data:
 
 
